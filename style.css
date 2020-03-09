@@ -1,0 +1,41 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Montserrat;
+  text-align: center;
+
+}
+.Saved{
+  padding: 30px 48px;
+  text-align: center;
+  margin: 100px auto;
+  width: 410px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 3px 6px 12px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+.Checked img{
+  margin:  auto;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.Success{
+  margin:  auto;
+  width: 318px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: 0.35px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
